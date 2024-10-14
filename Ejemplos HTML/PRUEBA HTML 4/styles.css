@@ -1,0 +1,39 @@
+/* Resto de estilos */
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+      float: right;
+      margin: 10px;
+      font-size: 24px;
+    }
+  
+    #menu {
+      display: none;
+      float: right;
+    }
+  
+    #menu li {
+      display: block;
+      text-align: right;
+    }
+  
+    #menu.show {
+      display: block;
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  
+  .hidden {
+    display: none;
+  }
+  

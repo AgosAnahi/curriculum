@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+.cajas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.caja {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contacto,
+.redes-sociales,
+.otros-datos {
+    flex: 1;
+}
+
+.redes-sociales ul {
+    list-style: none;
+    padding: 0;
+}
+
+.redes-sociales ul li {
+    margin-bottom: 10px;
+}
+
+.redes-sociales ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para pantallas más pequeñas (responsive) */
+@media screen and (max-width: 768px) {
+    header ul li {
+        margin-right: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .cajas {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .caja {
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contacto,
+    .redes-sociales,
+    .otros-datos {
+        margin-bottom: 20px;
+    }
+}
+Estas reglas @media se aplicarán cuando la pantalla tenga un ancho máximo de 768 píxeles, lo que hace que el diseño sea más adecuado para dispositivos móviles. Puedes ajustar los valores en las reglas @media según tus necesidades específicas de diseño responsive.

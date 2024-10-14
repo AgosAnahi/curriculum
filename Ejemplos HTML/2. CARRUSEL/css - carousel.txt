@@ -1,0 +1,13 @@
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    min-width: 100%;
+    transition: transform 0.5s;
+}
+
+button {
+    /* Estilos para los botones de control */
+}
